@@ -1,0 +1,80 @@
+/* Estilos básicos do corpo */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilizando o cabeçalho */
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#inputSearch {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+/* Estilo do botão de pesquisa */
+#buttonSearch {
+    padding: 10px 15px;
+    font-size: 16px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#buttonSearch:hover {
+    background-color: #0056b3; /* Muda a cor quando o mouse passa por cima */
+}
+
+/* Estilizando o contêiner do perfil */
+ul {
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para elementos de perfil */
+h1 {
+    font-size: 24px;
+    color: #333;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin: 5px 0;
+}
+
+/* Estilo da imagem do perfil */
+img {
+    border: #333 solid 2px;
+}
+
+/* Estilo do link para o GitHub */
+a {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinha o link quando o mouse passa por cima */
+}
+
+/* Estilo da mensagem de erro */
+p.error {
+    color: red;
+    font-weight: bold;
+    text-align: center;
+}
